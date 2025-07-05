@@ -25,5 +25,54 @@ A simple console-based Number Guessing Game built in Java. The game generates a 
 5. After each round, the user is prompted to play again.
 6. At the end, the total rounds and rounds won are displayed.
 
+# 📊 Marks Percentage & Grade Calculator (Java)
+
+This is a simple Java console application that takes marks for multiple subjects, calculates the **total marks**, **average percentage**, and assigns a **grade** based on the performance.
+
+---
+
+##  Features
+
+- User input for marks of multiple subjects
+- Calculates:
+  - Total Marks
+  - Average Percentage
+  - Grade based on average
+- Validates marks (must be between 0 and 100)
+- User-friendly messages and formatting
+
+---
+
+##  How It Works
+
+1. User enters the number of subjects.
+2. Marks for each subject are entered one by one.
+3. The program calculates:
+   - Total marks = sum of all subject marks
+   - Average percentage = total marks / number of subjects
+   - Grade according to percentage
+4. Final results are displayed with:
+   - Total
+   - Percentage
+   - Grade
+
+---
+
+## Grading System
+
+| Percentage Range | Grade   |
+|------------------|---------|
+| 90 - 100         | A+      |
+| 80 - 89.99       | A       |
+| 70 - 79.99       | B       |
+| 60 - 69.99       | C       |
+| 50 - 59.99       | D       |
+| Below 50         | F (Fail)|
+
+---
+
+
+
+
 
 
