@@ -71,6 +71,71 @@ This is a simple Java console application that takes marks for multiple subjects
 
 ---
 
+# ATM Simulator (Java)
+
+A simple **Java console application** that simulates the functionality of an ATM machine. It allows users to **withdraw**, **deposit**, and **check balance** securely. This project demonstrates object-oriented programming (OOP) principles and basic input/output operations in Java.
+
+---
+
+##  Features
+
+- Console-based user interface
+- Bank account linked with the ATM
+- Perform:
+  - ✅ Check Balance
+  - ✅ Deposit Amount
+  - ✅ Withdraw Amount (with balance check)
+- Input validation and error messages
+- Clean and modular code using Java classes and methods
+
+---
+
+##  Class Overview
+
+### 1. `BankAccount.java`
+Represents a user's bank account with:
+- Balance storage
+- Methods for:
+  - `withdraw(amount)`
+  - `deposit(amount)`
+  - `getBalance()`
+
+### 2. `ATM.java`
+Acts as the ATM interface for:
+- Showing menu options
+- Accepting user inputs
+- Calling `BankAccount` methods based on user choices
+
+### 3. `ATMSimulator.java`
+Main class to run the program. Initializes the `BankAccount` and starts the ATM UI.
+
+
+
+
+
+# Student Management System (Java Console Application)
+
+This is a **console-based Student Management System** developed in Java. It allows users to manage student records with features such as adding, removing, searching, displaying students, and storing data persistently using file I/O.
+
+##  Features
+
+- ✅ Add a new student
+- ✅ Remove a student by roll number
+- ✅ Search for a student
+- ✅ Display all students
+- ✅ Save student data to a file
+- ✅ Load student data automatically on startup
+- ✅ Input validation to ensure correct and complete entries
+
+##  Student Attributes
+
+Each student record contains:
+
+- Name
+- Roll Number
+- Grade
+- Email
+
 
 
 
